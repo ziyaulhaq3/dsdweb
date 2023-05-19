@@ -1,0 +1,47 @@
+name: dsdweb
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http:
+  jwt_decoder:
+  shared_preferences: ^2.1.0
+  google_fonts: ^4.0.3
+  flutter_slidable:
+  fluttertoast:
+  image_picker: ^0.8.7+1
+  fl_chart: ^0.61.0
+  swipeable_button_view: ^0.0.2
+  sidebarx: ^0.15.0
+  
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dsdsoftimg.png
+    - assets/dsdgard.png
+    - assets/dsdsoftlogo.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/static/Montserrat-Medium.ttf
+        - asset: fonts/static/Montserrat-Regular.ttf
+
+
+
